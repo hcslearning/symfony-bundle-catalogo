@@ -1,0 +1,25 @@
+{
+    "name": "hcs/catalogo-bundle",
+    "type": "symfony-bundle",
+    "description": "Funcionalidad de Catalogo de Productos para Symfony",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.1.3",
+        "symfony/http-kernel": "4.3.*",
+        "symfony/config": "4.3.*",
+        "symfony/dependency-injection": "4.3.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {"HCS\\CatalogoBundle\\": ""},
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HCS\\CatalogoBundle\\Tests\\": "Tests/"
+        }
+    }
+}
